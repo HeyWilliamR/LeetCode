@@ -4,4 +4,4 @@ project(LeetCode)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(LeetCode main.cpp TwoSumSolution.cpp TwoSumSolution.h addTwoNumbersSolution.cpp addTwoNumbersSolution.h
-        LongestSubstringSolution.cpp LongestSubstringSolution.h)
+        LongestSubstringSolution.cpp LongestSubstringSolution.h findMedianSortedSolution.cpp findMedianSortedSolution.h)
