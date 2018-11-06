@@ -1,22 +1,16 @@
 #include <iostream>
-#include "convertCoutNSolution.h"
-#include "longestPalindromeSolution.h"
-#include "reverseInt32Solution.h"
-#include "myAtioSolution.h"
-#include "isMatchSolution.h"
+#include "maxNumberSolution.h"
 
 using namespace std;
 int main()
 {
-    isMatchSolution solution;
-    if(solution.isMatch("aaaaaaaaaaaaab",
-                                "a*a*a*a*a*a*a*a*a*a*c"))
+    maxNumberSolution solution;
+    vector<int> num1 = {3, 4, 6, 5};
+    vector<int> num2 = {9, 1, 2, 5, 8, 3};
+    vector<int> result = solution.maxNumber(num1,num2,5);
+    for(int i = 0;i<result.size();++i)
     {
-        cout<<"Yes";
-    }
-    else
-    {
-        cout<<"No";
+        cout<<result[i]<<',';
     }
     return 0;
 }
